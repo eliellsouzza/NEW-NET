@@ -73,6 +73,17 @@ a {
   transition: 0.3s;
 }
 
+
+.img-desktop{
+  display: block;
+
+  }
+  .img-mobile{
+  display: none;
+  }
+
+
+
 @media (max-width: 750px) {
   .hamburguer {
     display: block;
@@ -137,12 +148,77 @@ a {
     transform: rotate(-135deg);
     top: -7px;
   }
+
+
+  .img-desktop{
+  display: none;
+
+  }
+  .img-mobile{
+  display: block;
+  height: 102vh;
+
+  }
+
+
+  .page2{
+  
+height: 220vh;
+
+  }
+
+  .texto-planos{
+  gap: 10px;
+  text-align: center;
+  }
+
+.containher-todos{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.page3{
+ 
+ 
+}
+.container-roteador{
+ 
+ 
+ flex-direction: column;
+  display: flex;
+ 
+ 
+}
+
+.conteudo{
+ 
+}
+.wifi-text{
+font-size: 32px;
+ 
+}
+
+.wifi-text2{
+  font-size: 20px;
+ 
+  }
+.wifi-man img{
+
+width: 250px;
+ margin-left: 50px;
+ 
+}
+.beneficios{
+ 
+}
 }
 
 .interface {
-  height: 100vh;
- scroll-snap-type: y mandatory;
-/*   overflow-y: scroll; */  
+/*   height: 100vh;
+ */ 
+  overflow-y: scroll; /* é aqui que tira o x do menu mobile */ 
 }
 
 section {
@@ -159,7 +235,7 @@ section {
 
 .page1 {
   display: flex;
-  background-color: #3f3737;
+  background-color: #051224;;
 }
 
 .page1 .title {
