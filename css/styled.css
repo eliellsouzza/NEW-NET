@@ -161,6 +161,7 @@ a {
     height: 220vh;
   }
 
+
   .texto-planos {
     gap: 10px;
     text-align: center;
@@ -204,6 +205,8 @@ a {
   .beneficios{
   line-height: 35px;
   }
+
+
 }
 
 .interface {
@@ -336,7 +339,7 @@ section {
   border-radius: 20px;
   border-color: #ffffff;
   height: 50px;
-
+  
   width: 120px;
 }
 
