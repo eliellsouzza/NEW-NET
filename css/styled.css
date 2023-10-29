@@ -206,9 +206,7 @@ font-size: 32px;
   }
 .wifi-man img{
 
-width: 250px;
- margin-left: 50px;
- 
+display: none;
 }
 .beneficios{
  
