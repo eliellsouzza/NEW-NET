@@ -294,7 +294,7 @@ section {
 .container-card {
   margin-top: 5px;
   width: 280px;
-  height: 480px;
+  height: 500px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -316,12 +316,12 @@ section {
 .uploaded {
   color: #a8a8a8;
 }
-.container-card .descricao2,
+.container-card ,
 .descricao {
   text-align: center;
   color: #a8a8a8;
 }
-.container-card-3 .descricao2,
+.container-card-3 ,
 .descricao {
   text-align: center;
   color: #a8a8a8;
@@ -339,14 +339,11 @@ section {
   border-radius: 20px;
   border-color: #ffffff;
   height: 50px;
-  
   width: 120px;
 }
 
 .page3 {
   background-color: #fc8200;
- 
-  
 }
 
 .container-roteador {
