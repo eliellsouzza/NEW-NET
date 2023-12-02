@@ -1,0 +1,112 @@
+/* Estilização do carousel */
+#carouselExampleFade {
+    margin: 20px;
+  }
+  
+  /* Estilização dos itens do carousel */
+  .carousel-inner {
+    border-radius: 8px; /* Borda arredondada */
+    overflow: hidden; /* Ocultar overflow */
+  }
+  
+  .carousel-item {
+    text-align: center; /* Alinhamento do texto */
+  }
+  
+  /* Estilização do bloco 'banda-larga' */
+  .banda-larga {
+    background-color: #01ff7e; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    border: 1px solid #ddd; /* Borda */
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  
+    
+    
+  }
+  
+  /* Estilização dos cabeçalhos h3 dentro do 'banda-larga' */
+  .banda-larga h3 {
+    color: #00007f; /* Cor do texto */
+    font-size: 24px; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Margem inferior */
+  }
+  
+  /* Estilização dos parágrafos p dentro do 'banda-larga' */
+  .banda-larga p {
+    color: #ffffff; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+     
+    
+  }
+    .mais-detalhes{ 
+    width: 50%;
+    color: #ffffff; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    margin-left: 25%;
+    background-color: #00007f;
+    border-radius: 10px;
+
+   
+  }
+  
+  /* Estilização dos links 'MAIS DETALHES' */
+  .banda-larga a {
+    display: inline-block;
+    background-color: #007bff; /* Cor de fundo do link */
+    color: #fff; /* Cor do texto do link */
+    padding: 10px 20px; /* Espaçamento interno do link */
+    text-decoration: none; /* Remover decoração de texto */
+    border-radius: 5px; /* Borda arredondada */
+    margin-top: 10px; /* Margem superior */
+  }
+  
+  .banda-larga a:hover {
+    background-color: #0056b3; /* Cor de fundo do link ao passar o mouse */
+  }
+  
+  /* Estilização dos controles de navegação do carousel */
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+    color: #007bff; /* Cor dos controles */
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    color: #0056b3; /* Cor dos controles ao passar o mouse */
+  }
+  
+
+
+
+
+/* ------------------- card dos planos  */
+.planos {
+    background-color: #00007f; /* Fundo laranja */
+    font-weight: bold; /* Texto em negrito */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    text-align: center; /* Centralizar textos */
+  }
+  
+  .planos h2 {
+    color: #ffffff; /* Cor do título */
+    font-size: 35px; /* Tamanho da fonte do título */
+    margin-bottom: 10px; /* Margem inferior para separar do span */
+  }
+  
+  .planos span {
+    color: white;  /* Cor do texto do span */
+    font-size: 20px; /* Tamanho da fonte do span */
+    font-weight: bold; /* Texto em negrito */
+    display: block; /* Garante que o span tenha uma nova linha */
+    margin-top: 5px; /* Margem superior reduzida */
+  }
+  
+
+
+
+
+  

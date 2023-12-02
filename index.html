@@ -1,175 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styled.css" />
-    <script src="./js/script.js" defer></script>
-    <title>New Net</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/slide.css" />
+
+    <script src="https://cdn.speedtest.net/Speedtest.js"></script>
+    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <script src="./js/script.js" ></script>
+    <script
+      src="https://kit.fontawesome.com/a6e730c4a2.js"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <title>New-Net</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <a href="/" class="logo">
-          <img src="./assets/logo_new_net.png" alt=""
-        /></a>
-        <button class="hamburguer"></button>
-        <ul class="nav-list">
-          <li><a href="#Inicio">Inicio</a></li>
-          <li><a href="#Planos">Planos</a></li>
-          <li><a href="#Sobre ">Sobre</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
+    
+    <div class="topo-header">
+      <div class="number">
+        <img
+          src="./assets/icons/atendimento-ao-cliente.png"
+          alt="icone-atendimento-ao-cliente"
+          width="25" height="25"
+        />
+        <p>(81) 9.9999-9999</p>
+      </div>
+
+      <div class="social-media">
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+    </div>
+
+    <header>
+      <img
+        src="./assets/logo_new_net.png"
+        alt="Logo New-Net"
+        loading="lazy"
+        width="200"
+      />
     </header>
 
-    <div class="interface">
-      <section id="Inicio" class="page1">
-        <div class="title">
-          <h2>Fibra óptica de verdade.</h2>
-          <h3>Muito mais velocidade pra você navegar numa boa.</h3>
-        </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre Nós</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
 
-        <div class="imagem-banner;">
+    <!-- slide carrosel -->
+
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
           <img
-            src="./assets/img banner2.jpeg"
-            alt="imagem família topo"
-            class="img-desktop"
+            class="d-block w-100"
+            src="./assets/img-desktop/01.webp"
+            alt="Primeiro Slide"
           />
+        </div>
+        <div class="carousel-item">
           <img
-            src="./assets/imagem-mobile.png"
-            alt="imagem banner adaptada para mobile"
-            class="img-mobile"
+            class="d-block w-100"
+            src="./assets/img-desktop/02.webp"
+            alt="Segundo Slide"
           />
         </div>
-      </section>
-
-      <section id="Planos" class="page2">
-        <div class="texto-planos">
-          <div class="wifi-logo">
-            <img src="./assets/wifi-icon.png" alt="logo-wifi" />
-          </div>
-          <div class="texto-planos">
-            <h4>Temos o plano ideal para você!</h4>
-            <p>
-              Seja qual for a sua necessidade, a "NEW NET" tem o plano certo
-              para você ou seu negócio com preço baixo!
-            </p>
-          </div>
-          <div class="containher-todos">
-            <div class="container-card">
-              <div class="foguete">
-                <img src="./assets/foguete1.svg" alt="foguete plano inicial" />
-              </div>
-              <div class="velocidade">
-                <h1>100 MEGAS</h1>
-              </div>
-              <div class="valor">
-                <h3>R$ 60,00</h3>
-              </div>
-              <div id="linha"></div>
-              <div class="descricao">
-                <p>Ideal para quem quer acessar redes sociais</p>
-              </div>
-              <div id="linha"></div>
-              <div class="download">
-                <p>10mpbs de download</p>
-              </div>
-              <div id="linha"></div>
-              <div class="uploaded">
-                <p>2mpbs de upload</p>
-              </div>
-             
-              <div class="button"><button>CONTRATAR</button></div>
-            </div>
-            <div class="container-card">
-              <div class="foguete">
-                <img src="./assets/foguete1.svg" alt="foguete plano inicial" />
-              </div>
-              <div class="velocidade">
-                <h1>200 MEGAS</h1>
-              </div>
-              <div class="valor">
-                <h3>R$ 70,00</h3>
-              </div>
-              <div id="linha"></div>
-              <div class="descricao">
-                <p>Ideal para quem quer acessar redes sociais</p>
-              </div>
-              <div id="linha"></div>
-              <div class="download">
-                <p>10mpbs de download</p>
-              </div>
-              <div id="linha"></div>
-              <div class="uploaded">
-                <p>2mpbs de upload</p>
-              </div>
-              
-              <div class="button"><button>CONTRATAR</button></div>
-            </div>
-            <div class="container-card">
-              <div class="foguete">
-                <img src="./assets/foguete1.svg" alt="foguete plano final" />
-              </div>
-              <div class="velocidade">
-                <h1>400 MEGAS</h1>
-              </div>
-              <div class="valor">
-                <h3>R$ 90,00</h3>
-              </div>
-              <div id="linha"></div>
-              <div class="descricao">
-                <p>Ideal para quem quer acessar redes sociais</p>
-              </div>
-              <div id="linha"></div>
-              <div class="download">
-                <p>10mpbs de download</p>
-              </div>
-              <div id="linha"></div>
-              <div class="uploaded">
-                <p>2mpbs de upload</p>
-              </div>
-             
-              <div class="button"><button>CONTRATAR</button></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="page3">
-        <div class="container-roteador">
-          <div class="wifi-man">
-            <img src="./assets/wifi-man.png" alt="wifi man" />
-          </div>
-          <div class="conteudo">
-            <div class="homem-wifi"><img src="./assets/wifi-man.png" alt="" /></div>
-            <div class="wifi-text">
-              <h2>Roteador Wi-Fi GRÁTIS!</h2>
-            </div>
-            <div class="wifi-text2">
-              <p>
-                Ao escolher um plano com velocidade igual ou superior a 60mbps,
-                você leva de brinde o roteador Wi-Fi, para navegar a vontade,
-                seja na sua TV, notebook ou smartphone!
-              </p>
-            </div>
-            <div class="beneficios">
-              <p>Wi-Fi grátis</p>
-              <p>Banda ilimitada</p>
-              <p>Instalação rápida</p>
-              <p>Suporte Rápido</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="page4">
-        <h1>página 4</h1>
-      </section>
-
-      <section class="page5">
-        <h1>página 5</h1>
-      </section>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
     </div>
+
+
+
+<!-- CARROSEL TIPO DE EMPRESAS  -->
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="banda-larga">
+            <h3>INTERNET RESIDENCIAL</h3>
+            <P>BANDA LARGA FIBRA ÓPTICA</P>
+            <P class="mais-detalhes">MAIS DETALHES</P>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="banda-larga">
+            <h3>INTERNET COMERCIAL</h3>
+            <P>BANDA LARGA FIBRA ÓPTICA</P>
+            <P class="mais-detalhes">MAIS DETALHES</P>
+          </div> 
+        </div>
+        <div class="carousel-item">
+          <div class="banda-larga">
+            <h3>INTERNET EMPRESARIAL</h3>
+            <P>BANDA LARGA FIBRA ÓPTICA</P>
+            <P class="mais-detalhes">MAIS DETALHES</P>
+            
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+    
+    <main>
+      <div class="planos">
+        <h2>PLANOS</h2>
+        <span>Temos o plano ideal para sua necessidade. Veja abaixo os planos disponíveis e assine já.</span>
+      </div>
+      <section class="cor1">
+        <h2>Seção 1</h2>
+        <p>Conteúdo da seção 1 vai aqui.</p>
+      </section>
+
+      <section class="cor2">
+        <h2>Seção 2</h2>
+        <p>Conteúdo da seção 2 vai aqui.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Rodapé do seu site.</p>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
