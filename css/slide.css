@@ -108,5 +108,82 @@
 
 
 
+/* --------------card dos planos */
+   
+  
+ #foguete  {
+ padding-left: 34%;
+}
 
+#carouselExampleIndicators {
+    width: 300px; /* Largura do card */
+    margin: 0 auto; /* Centralizar o card */
+  }
+  
+  .carousel-inner {
+    text-align: center; /* Centralizar o conteúdo no card */
+  }
+  
+  .carousel-item {
+    padding:5px; /* Espaçamento interno no card */
+    border: 1px solid #ddd; /* Adicionar borda ao redor do card */
+    border-radius: 10px; /* Adicionar bordas arredondadas ao card 
+    */
+    background-color: #00007f;
+  }
+  
+  #foguete {
+    max-width: 100%; /* Garantir que a imagem não ultrapasse a largura do card */
+  }
+
+
+  .preco{
+    font-size: 100px;
+    font-weight: 600;
+    
+}
+
+.mega{
+font-size: 20px;
+ 
+
+
+}
+
+.valocidade{
+font-size: 50px;
+color: #01ff7e;
+font-weight: 600;
+
+}
+.tecnologia{
+ 
+    margin-top: 10px;
+}
+.fibra{
+    padding-bottom: 10px; 
+    gap: 20px;
+    color: #01ff7e; 
+}
+
+  .botao-assinar {
+    display: block;
+    padding-top: 10px;
+    width: 170px;
+    margin-left: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: #01ff7e; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    text-decoration: none;
+    border-radius: 5px; /* Adicionar bordas arredondadas ao botão */
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .botao-assinar:hover {
+    background-color: #04b05a; /* Cor de fundo do botão ao passar o mouse */
+    color: white;
+    text-decoration: none;
+  }
   
