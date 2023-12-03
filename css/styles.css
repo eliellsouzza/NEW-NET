@@ -16,11 +16,7 @@ font-family: "roboto";
 }
 
 
-body {
-    margin: 0;
-    padding: 0;
-    
-}
+ 
 
 
 .topo-header{
@@ -95,7 +91,7 @@ nav a {
 }
 
 main {
-    padding: 20px;
+    padding: 5px;
 }
 
 .cor1 {
@@ -107,6 +103,24 @@ main {
 
 .cor2 {
     background-color: #e74c3c;
+    color: #ffffff;
+    border-radius: 5px;
+  
+    
+    padding: 30px;
+}
+.cor3 {
+    background-color: #320904;
+    color: #ffffff;
+    padding: 20px;
+}
+.cor4 {
+    background-color: #c00dd8d9;
+    color: #ffffff;
+    padding: 20px;
+}
+.cor5 {
+    background-color: #d8a90dd9;
     color: #ffffff;
     padding: 20px;
 }
