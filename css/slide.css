@@ -191,6 +191,14 @@
 
 .cor3 {
 }
+
+#title-btn{
+  
+ font-size: 18px;
+ 
+color: #00007f;
+}
+
 .title-perguntas {
   color: #00007f;
   font-weight: 600;
@@ -200,6 +208,7 @@
   color: #00007f;
   font-size: 16px;
   font-weight: 600;
+  
 }
 
 .Whatsapp,
@@ -216,5 +225,8 @@
   color: #00007f;
   border-radius: 20px;
   font-size: 39px;
-  padding: 5px;
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+  padding: 25px;
 }

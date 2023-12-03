@@ -50,12 +50,14 @@ header {
   color: #1f0404;
   text-align: center;
   padding: 10px;
+  
 }
 
 nav {
   background-color: var(--cor-fundo-header-topo);
   color: #ffffff;
   padding: 15px;
+  
 }
 
 nav ul {
@@ -63,22 +65,28 @@ nav ul {
   margin: 0;
   padding: 0;
   text-align: center;
+  
 }
 
 nav li {
   display: inline;
   margin-right: 20px;
+  text-decoration: none;
 }
 
 nav a {
   text-decoration: none;
   color: #ffffff;
   font-weight: bold;
+  
 }
 
 main {
   padding: 5px;
 }
+
+
+
 
 .cor1 {
   background-color: #f39c12;
@@ -98,6 +106,10 @@ main {
   background-color: #2ecc71;
   color: #ffffff;
   padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+ 
 }
 .cor4 {
   background-color: #2ecc71;
@@ -108,8 +120,10 @@ main {
 .cor5 {
   background-color: #f39c12;
   color: #ffffff;
-  padding: 20px;
-  text-align: center;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
 }
 
 footer {
