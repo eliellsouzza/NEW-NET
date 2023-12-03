@@ -100,28 +100,26 @@ main {
   padding: 20px;
 }
 .cor4 {
-  background-color: #c00dd8d9;
+  background-color: #2ecc71;
   color: #ffffff;
   padding: 20px;
+  text-align: center;
 }
 .cor5 {
-  background-color: #d8a90dd9;
+  background-color: #f39c12;
   color: #ffffff;
   padding: 20px;
+  text-align: center;
 }
 
 footer {
   background-color: #00007f;
   color: #ffffff;
   text-align: center;
- 
-
 }
-footer img{
-margin-top: 0px;
-
+footer img {
+  margin-top: 0px;
 }
-footer p{
-margin-bottom: 0px;
-
+footer p {
+  margin-bottom: 0px;
 }

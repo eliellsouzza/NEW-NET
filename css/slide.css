@@ -190,5 +190,32 @@
 }
 
 .cor3 {
+}
+.title-perguntas {
+  color: #00007f;
+  font-weight: 600;
+}
 
+.card-body {
+  color: #00007f;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Whatsapp,
+.E-mail,
+.atendimento {
+  background-color: white;
+  border-radius: 20px;
+  color: #01ff7e;
+  padding-top: 5px;
+}
+
+.title-endereco {
+  border: 3px solid #00007f;
+  color: #00007f;
+  border-radius: 20px;
+  font-size: 39px;
+
+  padding: 5px;
 }
